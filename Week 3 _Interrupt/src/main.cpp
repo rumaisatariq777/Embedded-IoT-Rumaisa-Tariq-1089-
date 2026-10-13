@@ -5,7 +5,7 @@
 // Name: xyz                  Reg#: 1234
 
 #include<Arduino.h>
-const int buttonPin = 32;
+const int buttonPin = 21;
 const int ledPin = 4;
 volatile bool ledState = LOW;
 
