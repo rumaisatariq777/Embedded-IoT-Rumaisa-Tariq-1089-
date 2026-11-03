@@ -5,7 +5,7 @@
 void setup()
 {
     Serial.begin(115200);
-    Serial.println("ESP32 DAC LED Test");
+    Serial.println("ESP32 DAC 2 LED Test");
 }
 
 void loop()
@@ -19,6 +19,6 @@ void loop()
         Serial.print("DAC Value: ");
         Serial.println(values[i]);
 
-        delay(2000);
+        delay(5000);
     }
 }
